@@ -7,7 +7,7 @@ In thai:
 
 https://narumitkitiweth-67098.medium.com/how-to-transfer-the-files-with-microsoft-sharepoint-via-rest-api-b0f7318d9f86
 
-
+1. Config parameter as below:
 Config example:
 
 {
@@ -23,3 +23,5 @@ Config example:
 "filename"  : "test.csv"
 
 }
+
+2. run app.py
