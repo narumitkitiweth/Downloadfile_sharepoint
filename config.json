@@ -1,0 +1,13 @@
+{
+"client_id"  : "client_id@Tenant_ID",
+"client_secret": "client_secret",
+"resource"   : "00000003-0000-0ff1-ce00-000000000000/domain.sharepoint.com@Tenant_ID",
+"tenant_ID"  : "Tenant_ID",
+
+"sp_team_site"  : "https://domain.sharepoint.com/teams/target_site",
+"sp_docpath" : "Shared Documents/General/target_folder",
+
+"tmp_foldername"  : "download", 
+"filename"  : "test.csv"
+
+}
