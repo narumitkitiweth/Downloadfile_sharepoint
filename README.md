@@ -1,15 +1,19 @@
 Download file from sharepoint site using Python Requests.
 
-Need to generate Client_id, Client_secret, Tenent_id, Tenent_name. please find the solution on https://www.youtube.com/watch?v=YMliU4vB_YM 
+First, Generate Client_id, Client_secret, Tenent_id, Tenent_name. please find the solution on:
+
+https://www.youtube.com/watch?v=YMliU4vB_YM 
 
 
-In thai: 
+
+In thai, Please find in this article: 
 
 https://narumitkitiweth-67098.medium.com/how-to-transfer-the-files-with-microsoft-sharepoint-via-rest-api-b0f7318d9f86
 
-1. Config parameter as below:
-Config example:
+1.Config the parameter on config.json  
 
+Config example:
+```JSON
 {
 "client_id"  : "client_id@Tenant_ID",
 "client_secret": "client_secret",
@@ -23,5 +27,6 @@ Config example:
 "filename"  : "test.csv"
 
 }
+```
 
 2. run app.py
